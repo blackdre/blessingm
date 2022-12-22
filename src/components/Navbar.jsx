@@ -37,15 +37,15 @@ function Navbar() {
           <div className="row d-lg-flex flex-lg-row justify-content-lg-between">
             <div className="position-relative top-0 start-0 ms-n32 pe-32 col-12 d-none d-lg-flex align-items-lg-center col-lg-auto">
               <div className="position-absolute d-flex" style={{ transform: `rotate(-90deg)` }}>
-                <Link className="me-14 small fw-bold text-decoration-none text-dark" to="#">Facebook</Link>
+                <Link className="me-14 small fw-bold text-decoration-none text-dark" to="#">Instagram</Link>
                 <Link className="me-14 small fw-bold text-decoration-none text-dark" to="#">Twitter</Link>
-                <Link className="small fw-bold text-decoration-none text-dark" to="#">Instagram</Link></div>
+                <Link className="small fw-bold text-decoration-none text-dark" to="#">LinkdIn</Link></div>
             </div>
             <div className="col-12 col-md-6 col-lg-5 d-md-flex align-items-md-center d-lg-none">
               <ul className="mw-lg mx-auto list-unstyled mb-0 mt-md-0 text-center d-flex justify-content-center justify-content-md-between gap-6 flex-md-column">
                 <li><Link className="text-decoration-none small text-white fw-bold" to="#">Twitter</Link></li>
-                <li className="my-md-8"><Link className="text-decoration-none small text-white fw-bold" to="#">Facebook</Link></li>
-                <li><Link className="text-decoration-none small text-white fw-bold" to="#">Instagram</Link></li>
+                <li className="my-md-8"><Link className="text-decoration-none small text-white fw-bold" to="#">Instagram</Link></li>
+                <li><Link className="text-decoration-none small text-white fw-bold" to="#">LinkdIn</Link></li>
               </ul>
             </div>
             <div className="col-12 col-md-6 col-lg-5 mb-6 mb-lg-0">
@@ -53,22 +53,19 @@ function Navbar() {
                 <div style={{ zIndex: 1 }}>
                   <img className="img-fluid" src={myImage} alt=""></img>
                 </div>
-                <ul className="list-unstyled mb-0 d-flex justify-content-center mt-9">
-                  <li className="d-flex me-3"><Link className="p-1 bg-primary rounded-circle" to="#"></Link></li>
-                  <li className="d-flex me-3"><Link className="p-1 bg-light rounded-circle" to="#"></Link></li>
-                  <li className="d-flex me-3"><Link className="p-1 bg-light rounded-circle" to="#"></Link></li>
-                  <li className="d-flex"><Link className="p-1 bg-light rounded-circle" to="#"></Link></li>
-                </ul>
               </figure>
             </div>
             <div className="col-12 col-md-12 col-lg-5 d-lg-flex flex-lg-row align-items-lg-center">
               <div className="mw-lg mx-auto mw-md-none">
                 <h1 className="mb-6 lh-sm text-light">
                   <span>Blessing</span>
+                  <br />
                   <span className="text-primary-dark">Freelance</span>
+                  <br />
                   <span>Developer.</span>
                 </h1>
-                <p className="mb-6 lh-lg mw-md-md mw-xl-sm text-light">Pstls. Kit uses attractive colors and modern typography to make you look good, no matter what business you’re in.</p>
+                <p className="mb-6 lh-lg mw-md-md mw-xl-sm text-light">I specialize in full-stack application development and websites for small-medium enterprises. With over 4 years’ Freelance experience delivering applications in the
+web services space</p>
                 <Link className="btn btn-light d-block d-md-inline-block" to="#">Details</Link>
               </div>
             </div>
